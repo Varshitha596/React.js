@@ -37,3 +37,25 @@ return (
  
 
 } 
+
+
+function App() {
+  const name="me";
+  const task="learning react";
+  //nrml function
+  const gettask = ()=> {
+    return "Learning";
+  };
+  //component
+  const Greeting=()=>{
+    return <h2>hi{name} and {task}</h2>;
+  };
+return (
+  <div>
+    <Greeting/>
+    <p>{gettask()}</p>
+  </div>
+);
+}
+
+export default App;
