@@ -71,3 +71,13 @@
 //  }
 
 // export default Welcome;
+
+
+function App({name,task}) {
+  return <h1>{name} hello yoo {task}</h1>
+ }
+ function Welcome(){
+  return <App name="varsha" task="going"/>
+ }
+
+export default Welcome;
